@@ -21,10 +21,16 @@ public class HelloController {
     @FXML
     public void onButtonClick(ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("video-window.fxml"));
+
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+
+    }
+
+    public void startCamera(ActionEvent event){
+
     }
 
 //    public void switchToVideoScene(ActionEvent event) throws IOException {
