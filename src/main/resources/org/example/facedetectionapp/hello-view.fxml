@@ -31,7 +31,7 @@
             <Button fx:id="startCamera" mnemonicParsing="false" onAction="#startCamera" text="Start Camera" />
          </children>
       </VBox>
-      <ImageView fx:id="originalFrame" fitHeight="216.0" fitWidth="377.0" layoutX="191.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="webcamView" fitHeight="216.0" fitWidth="377.0" layoutX="191.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
       <Separator layoutX="10.0" layoutY="28.0" prefHeight="26.0" prefWidth="578.0" />
    </children>
 </AnchorPane>
